@@ -57,7 +57,7 @@ $(document).ready(function () {
     return futureFormattedDate
   }
   $("#countdown").countdown({
-    date: "8 July 2016 13:30:00",
+    date: "8 July 2016 13:10:30",
     format: "on"
   });
 });
