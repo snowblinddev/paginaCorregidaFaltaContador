@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="full" lang="en"><head>
+<meta name="google-site-verification" content="Q9eMgSB7s6BuIWNaI5enFb0IyW8z7undn4eyEE7TGZE" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Go!app</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="/assets/stylesheets/css.css" rel="stylesheet" type="text/css">
+<link href="/assets/stylesheets/bootstrap.css" rel="stylesheet">
+<link href="/assets/stylesheets/font-awesome.css" rel="stylesheet">
+<link href="/assets/stylesheets/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="<%= asset_path 'go.jpg'%>">
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBXiPX7B6kiUqu6fP2wBRNXduCpXwADjAM",
+    authDomain: "go-world-30e52.firebaseapp.com",
+    databaseURL: "https://go-world-30e52.firebaseio.com",
+    storageBucket: "",
+  };
+  firebase.initializeApp(config);
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79506884-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="coming-soon">
+  <div class="container">
+  
+    <div class="row">
+      <div class="span12">
+        <div class="logo">  </div>
+        <img src="<%=asset_path 'logo.png'%>">
+        <h2>Muy Pronto</h2>
+        <p>Estamos Trabajando en una nueva forma de ver tu ciudad, Mantente en contacto!</p>
+        <h3>Tiempo restante para el lanzamiento</h3>
+        
+        <div id="countdown">
+          <p class="days">00</p>
+          <p class="timeRefDays">days</p>
+          <p class="hours">00</p>
+          <p class="timeRefHours">hours</p>
+          <p class="minutes">00</p>
+          <p class="timeRefMinutes">minutes</p>
+          <p class="seconds">00</p>
+          <p class="timeRefSeconds">seconds</p>
+        </div>
+        
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="span12 subscribe">
+      <h3>Suscribete para estar en contacto!</h3>
+
+
+
+      </form>
+    </div>
+  </div>
+    <div class="row">
+    <div class="span12 social"> <a href="https://www.facebook.com/goAppHn"><i class="fa fa-facebook-square fa-2x"></i></a> <a href=""><i class="fa fa-play fa-2x"></i> <a href="https://www.instagram.com/goworldnow/"><i class="fa fa-instagram fa-2x"></i></a> </div>
+  </div>
+  <div class="span12 row">
+    <div class="copyright">Copyright © 2016 Go! APP. Created by Mayapps</div>
+  </div>
+</div>
+
+<!-- Javascript --> 
+<script src="assets/javascripts/application.js"></script>>
+<script src="assets/javascripts/bootstrap.js"></script> 
+<script src="assets/javascripts/custom.js"></script>
+<script src="/assets/javascripts/counter.js"></script> 
+</body></html>
